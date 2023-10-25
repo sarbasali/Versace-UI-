@@ -1,0 +1,522 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: fit-content;
+    
+}
+.content-1{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    /* align-items: center; */
+    /* background-color: aqua; */
+    /* align-items: center; */
+
+}
+.c1-versace{
+    /* font-family:Gloock; */
+    color: black;
+    font-size: 55px;
+    /* padding-left: 50px; */
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+.c1-subhead{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-family: sans-serif;
+    
+    position: absolute;
+    left: 405px;
+    top: 100px;
+    /* position: absolute;
+    top: 38px;
+    left: 280px; */
+}
+.c1-logos{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: absolute;
+    left: 1600px;
+    top: 90px;
+
+}
+.c1-heart{
+    width: 20px;
+}
+.c1-search{
+    width: 20px;
+}
+.c1-contact{
+    width: 20px;
+}
+.c1-cart{
+    width: 20px;
+}
+
+.c1-hr{
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    width: 1890px;
+}
+/*********************** c2 **********************************/
+.content-2{
+    display: flex;
+    flex-direction:row;
+    /* justify-content: space-between; */
+    position:relative;
+    top: 170px;
+    left: 60px;
+    /* height: 200px; */
+}
+.c2-sub{
+    display: flex;
+    flex-direction: row;
+}
+.c2-filter{
+    width: 20px;
+   
+}
+.c2-show{
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+    width: 300px;
+}
+.c2-sub2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+width: max-content;
+    position: absolute;
+    left: 800px;
+}
+.c2-sub3{
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    position: absolute;
+    left: 1600px;
+    gap: 20px;
+}
+
+
+
+.c2-arrow{
+    width: 20px;
+}
+.hr2{
+    width: 1900px;
+    position: absolute;
+    top: 50px;
+    left:-50px;
+}
+.c2-product{
+   font-family: 'Courier New', Courier, monospace;
+}
+.c2-sort{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* ***************** content 3************************************************ */
+.content-3{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 80px;
+}
+.image-con{
+    display: flex;
+    flex-direction: row;
+    position: relative; 
+    top: 150px;
+
+}
+.c3-img1{
+    
+    position: absolute;
+    top: 1px;
+    left: 90px;
+    margin: 10% auto;
+}
+.top-img{
+    width: 400px;
+    height: 560px;
+  
+    position: relative;    
+}
+.top-img:hover{
+    animation: ab 4s   infinite;
+    
+}
+@keyframes ab{
+    0%{
+    content: url(/asset/versace\ jacket1.avif);
+
+    }
+    50%{
+        content: url(/asset/versace\ jacket2.avif);
+    }
+    80%{
+        content: url(/asset/versace\ jacket3.avif);
+    }
+
+}
+.c3-img1 img .top-img{
+    opacity: 0s;
+    cursor: pointer;
+
+}
+.c3-jacket{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:15px;
+    font-weight: 900;
+}
+.c3-rate{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.c3-img2{
+    width: 100px;
+    position: relative;
+    left: 520px;
+    top: 12px;
+}
+.c3-video{
+    width: 400px;
+    height: 560px;
+  
+    
+}
+.jeans-rate{
+    /* position: absolute;
+    top: 590px; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.allover-jeans{
+    position: absolute;
+    top: 560px;
+    width: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+}
+.c3-img3{
+    position: absolute;
+    top: 10px;
+    left: 950px;
+    
+}
+.c3-tshirt1{
+    width: 420px;
+    height: 560px;
+    
+}
+.c3-tshirt1:hover{
+    animation: aw 4s  infinite;
+
+}
+@keyframes aw{
+    0%{
+       content: url(/asset/versace\ tshirt1.avif);
+    }
+    50%{
+        content: url(/asset/versace\ tshirt2.avif);       
+    }
+    80%{
+        content: url(/asset/versace\ tshirt3.avif);
+    }
+}
+.c3-intarsia{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+}
+.tshirt1-rate{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.c3-img4{
+    position: absolute;
+    left: 1400px;
+    top: 10px;
+}
+.c3-video2{
+    width: 400px;
+    height: 560px;
+    /* position: absolute;
+    left: 1300px;
+    top: 10px; */
+}
+.img4-rate{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.img4-maschere{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+}
+/************** content 4********************************************************/
+.content-4{
+    /* width: 900px;
+    height: 500px;
+    background-color: aquamarine; */
+    position: relative;
+    top: 280px;
+    left: 90px;
+    display: flex;
+    flex-direction: row;
+}
+.img5-maschere{
+    width: 400px;
+    height: 550px;
+   
+}
+.img5-maschere:hover {
+    animation: sa 4s  infinite;
+}
+@keyframes sa{
+    0%{
+        content :url(/asset/maschere\ tshirt.avif) ;
+    }
+    50%{
+        content: url(/asset/maschere\ tshirt2.avif);
+    }
+    80%{
+        content: url(/asset/maschere\ tshirt3.avif);
+    }
+}
+.img5-le{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+}
+.img5-rate{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.img5-heart{
+    width: 25px;
+    position: absolute;
+    left: 350px;
+    top: 15px;
+}
+.c4-img6{
+    position: relative;
+    left: 30px;
+    
+}
+.c4-video{
+    width: 400px;
+    height: 550px;
+    
+}
+.img6-name{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    
+}
+.img6-rate{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.img6-heart{
+    width: 25px;
+    position: absolute;
+    right: 24px;
+    top: 15px;
+}
+.c4-img7{
+    position: relative;
+    left: 60px ;
+}
+.img7-jacket{
+    width: 420px;
+    height: 550px;
+}
+.img7-jacket:hover{
+    animation: zx 4s  infinite;
+}
+@keyframes zx{
+    0%{
+        content: url(/asset/img7\ jacket1.avif);
+    }
+    50%{
+        content: url(/asset/img7\ jacket2.avif);
+    }
+    80%{
+        content: url(/asset/img7\ jacket3.avif);
+    }
+}
+.img7-heart{
+    width: 25px;
+    position: absolute;
+    right: 24px;
+    top: 15px;
+}
+.img7-name{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+   
+}
+.img7-rate{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.c4-video2{
+    width: 410px;
+    height: 550px;
+    position:relative;
+    left: 85px;
+    
+}
+.img8-name {
+    position: relative;
+    left:95px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+
+}
+.img8-rate{
+    position: relative;
+    top: 10px;
+    left: 95px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+}
+/******************* content 5***************************************************/
+.content-5{
+  
+    position: relative;
+    top: 300px;
+    left: 90px;
+    display: flex;
+    flex-direction: row;
+}
+.c5-img9{
+    position: relative;
+    right: 30px;
+    
+}
+.c5-video{
+    width: 450px;
+    height: 550px;
+}
+.img9-name{
+    position: absolute;
+    left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+
+
+}
+.img9-rate{
+    position: relative;
+    top: 25px;
+    left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+
+}
+.c5-img10{
+    position: relative;
+    right: 22px;
+
+}
+.img-10{
+    width: 405px;
+    height: 550px;
+}
+.img-10:hover{
+    animation: wq 5s linear infinite;
+}
+@keyframes wq{
+    0%{
+        content: url(/asset/img10-1.avif);
+    }
+    50%{
+        content: url(/asset/img10-2.avif);
+    }
+    80%{
+        content: url(/asset/img10-3.avif);
+    }
+}
+.img10-name{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+
+}
+.img10-rate{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    padding-top: 10px;
+
+}
+/* .c5-img11{
+
+} */
+.img-11{
+   width: 420px;
+   height: 550px;
+
+}
+.img11-name{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    padding-left: 16px;
+}  
+.img11-rate{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 16px;
+}
+.c5-img12{
+    position: relative;
+    left: 20px;
+}
+.img-12{
+    width: 420px;
+    height: 550px;
+}
+.img12-name{
+    position: absolute;
+    left: 16px;
+    line-height: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+}
